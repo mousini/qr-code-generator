@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:pink;
+}
+.container{
+    width:400px;
+    padding: 25px 35px;
+    position:absolute;
+    top:50%;
+    left:50%;
+transform: translate(-50%,-50%);
+background:linear-gradient(100deg,white,rgb(227, 156, 168));
+border-radius:10px;
+color:rgb(157, 143, 143);
+}
+.container input{
+    width:100%;
+    height:50px;
+    border:1px solid pink;
+    outline:0;
+    padding:10px;
+    margin:10px 0 2-px;
+    border-radius:5px;
+    background:linear-gradient(10deg,rgb(228, 211, 214),rgb(240, 142, 158));
+color:rgb(157, 143, 143);
+}
+.container button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(240, 142, 158);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background: rgb(227, 156, 168);
+}
+#imgBox {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#imgBox img {
+    max-width: 100%;
+    border-radius: 5px;
+}
